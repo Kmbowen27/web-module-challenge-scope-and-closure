@@ -82,8 +82,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+   - A closure is the combination of a function and the lexical environment it was created in. This allows us to create functions nested within other functions that have repeated acces to privatized variables.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  - The function is always the same but the resulting newRoll variable changes.
+
 c. What is the lexical scope of `newRoll`? 
+  - The lexical scope of newRoll is the personalDice() function.
 
 
 ### Task 3 - Stretch Goals
